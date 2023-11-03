@@ -1,0 +1,1 @@
+FROM olympeio/neo4j-procedure:2.0.0

@@ -1,0 +1,16 @@
+{
+  "sc.app": "<your application tag>",
+  "server": {
+    "host": "community.fluidapp.io",
+    "port": 443,
+    "ssl": true
+  },
+  "bus": {
+    "host": "rabbitmq.eks-prod.olympe.io",
+    "path": "/mqtt",
+    "ssl": true,
+    "port": 443,
+    "vhost": "community",
+    "allowGuest": true
+  }
+}
